@@ -1,0 +1,494 @@
+{
+  "name": "trabalho1",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "clab",
+        "bridge": "br-3f751bf5bd77",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "ipv6-subnet": "3fff:172:20:20::/64",
+        "ipv6-gw": "3fff:172:20:20::1",
+        "external-access": true
+      }
+    }
+  },
+  "ssh-pub-keys": [],
+  "nodes": {
+    "h1": {
+      "index": "0",
+      "shortname": "h1",
+      "longname": "clab-trabalho1-h1",
+      "fqdn": "h1.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/h1",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::5",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/h1",
+        "clab-node-longname": "clab-trabalho1-h1",
+        "clab-node-name": "h1",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "h2": {
+      "index": "1",
+      "shortname": "h2",
+      "longname": "clab-trabalho1-h2",
+      "fqdn": "h2.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/h2",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.10",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::a",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/h2",
+        "clab-node-longname": "clab-trabalho1-h2",
+        "clab-node-name": "h2",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "r1": {
+      "index": "2",
+      "shortname": "r1",
+      "longname": "clab-trabalho1-r1",
+      "fqdn": "r1.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r1",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.3",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r1",
+        "clab-node-longname": "clab-trabalho1-r1",
+        "clab-node-name": "r1",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "r2": {
+      "index": "3",
+      "shortname": "r2",
+      "longname": "clab-trabalho1-r2",
+      "fqdn": "r2.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r2",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.8",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::8",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r2",
+        "clab-node-longname": "clab-trabalho1-r2",
+        "clab-node-name": "r2",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "r3": {
+      "index": "4",
+      "shortname": "r3",
+      "longname": "clab-trabalho1-r3",
+      "fqdn": "r3.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r3",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::6",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r3",
+        "clab-node-longname": "clab-trabalho1-r3",
+        "clab-node-name": "r3",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "r4": {
+      "index": "5",
+      "shortname": "r4",
+      "longname": "clab-trabalho1-r4",
+      "fqdn": "r4.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r4",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.7",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::7",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r4",
+        "clab-node-longname": "clab-trabalho1-r4",
+        "clab-node-name": "r4",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "r5": {
+      "index": "6",
+      "shortname": "r5",
+      "longname": "clab-trabalho1-r5",
+      "fqdn": "r5.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r5",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.2",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::2",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r5",
+        "clab-node-longname": "clab-trabalho1-r5",
+        "clab-node-name": "r5",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "r6": {
+      "index": "7",
+      "shortname": "r6",
+      "longname": "clab-trabalho1-r6",
+      "fqdn": "r6.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r6",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.9",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::9",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r6",
+        "clab-node-longname": "clab-trabalho1-r6",
+        "clab-node-name": "r6",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    },
+    "r7": {
+      "index": "8",
+      "shortname": "r7",
+      "longname": "clab-trabalho1-r7",
+      "fqdn": "r7.trabalho1.io",
+      "group": "",
+      "labdir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r7",
+      "kind": "linux",
+      "image": "router-bird",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::4",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-3f751bf5bd77",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/clab-trabalho1/r7",
+        "clab-node-longname": "clab-trabalho1-r7",
+        "clab-node-name": "r7",
+        "clab-node-type": "",
+        "clab-owner": "VmUser",
+        "clab-topo-file": "/home/VmUser/Documents/Redes/ProjetosRedes02/topologia/topologia.clab.yml",
+        "containerlab": "trabalho1"
+      },
+      "port-bindings": [
+      ]
+    }
+  },
+  "links": [
+    {
+      "endpoints": {
+        "a": {
+          "node": "r1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:70:f7:92",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:6d:62:fe",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:62:7c:e2",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r3",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:56:5f:0d",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r1",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:36:e7:af",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r5",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:11:cf:16",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:f1:34:56",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r4",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:05:c9:30",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r2",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:c9:00:78",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r5",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:19:f3:30",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r3",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:05:fa:2d",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r5",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:ed:32:43",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r3",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:8c:a2:59",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r6",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:b7:ce:16",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r4",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:00:e0:ea",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r7",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:28:91:6d",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r5",
+          "interface": "eth4",
+          "mac": "aa:c1:ab:16:85:e3",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r7",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:4b:f7:6b",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r6",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:c5:29:e8",
+          "peer": "z"
+        },
+        "z": {
+          "node": "r7",
+          "interface": "eth3",
+          "mac": "aa:c1:ab:bd:68:ef",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r1",
+          "interface": "eth4",
+          "mac": "aa:c1:ab:c5:60:9f",
+          "peer": "z"
+        },
+        "z": {
+          "node": "h1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:d1:d0:ec",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "r7",
+          "interface": "eth4",
+          "mac": "aa:c1:ab:c8:a7:4c",
+          "peer": "z"
+        },
+        "z": {
+          "node": "h2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:5d:ec:25",
+          "peer": "a"
+        }
+      }
+    }
+  ]
+}
