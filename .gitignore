@@ -1,0 +1,3 @@
+echo "topologia/clab-trabalho1/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+git status

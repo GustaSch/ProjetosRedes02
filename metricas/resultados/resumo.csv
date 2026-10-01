@@ -1,0 +1,4 @@
+cenario,rotas_r1,rotas_total,pacotes_controle,bytes_controle,pacotes_por_s,bytes_por_s,rtt_medio_ms,pacotes_perdidos,convergencia_s
+RIP,26,196,235,100110,3.92,1668.5,216.641,30,3.0
+OSPF,31,203,586,48052,9.77,800.9,186.727,4,0.4
+Q-routing,18,126,1680,164640,28.0,2744.0,35.39,16,1.6

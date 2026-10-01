@@ -3,44 +3,44 @@ h1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.5
+    hostname: 
 h2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.10
+    hostname: 
 r1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.3
+    hostname: 
 r2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.8
+    hostname: 
 r3:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.6
+    hostname: 
 r4:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.7
+    hostname: 
 r5:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.2
+    hostname: 
 r6:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.9
+    hostname: 
 r7:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.4
+    hostname: 

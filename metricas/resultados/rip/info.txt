@@ -1,0 +1,1 @@
+DUR=60 INTERVALO=0.1 MODO=down
