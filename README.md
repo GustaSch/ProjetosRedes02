@@ -9,7 +9,10 @@ comparar dois protocolos de roteamento (RIP e OSPF) e um algoritmo próprio, sob
 comportamento diante de falhas de enlace.
 
 ## 2. Vídeo de demonstração
-[link do vídeo]
+O Vídeo de demonstração se encontra na respectiva pasta no repositório
+
+Nele há uma demonstração da topologia no ar e os três cenários (OSPF, RIP e
+Q-routing) com a falha de um enlace e a reconvergência.
 
 ## 3. Ambiente
 | Atributo | Especificação |
